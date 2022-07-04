@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "585611430885",
+    "firebase_url": "https://mcra-99427-default-rtdb.firebaseio.com",
+    "project_id": "mcra-99427",
+    "storage_bucket": "mcra-99427.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:585611430885:android:fb57e80bdfd498d9ccbd0c",
+        "android_client_info": {
+          "package_name": "com.example.mcra"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "585611430885-irsrhuctq8qnm90lrnaaoevfa9dv2fs9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqcH6hJo7LdAxJdbA-nP8o_zksP1Embvo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "585611430885-irsrhuctq8qnm90lrnaaoevfa9dv2fs9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
