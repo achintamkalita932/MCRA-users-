@@ -5,5 +5,6 @@ data class ComplainData(
     val uid: String ?= null,
     val complainR: String ?= null,
     val addressR: String ?= null,
-    val category: String ?= null
+    val category: String ?= null,
+    val Status: String ?= null
 )

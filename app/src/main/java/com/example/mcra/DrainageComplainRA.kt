@@ -50,6 +50,7 @@ class DrainageComplainRA : AppCompatActivity() {
                             intent.putExtra("user_ID", complainArrayList[position].uid)
                             intent.putExtra("complain", complainArrayList[position].complainR)
                             intent.putExtra("address", complainArrayList[position].addressR)
+                            intent.putExtra("status", complainArrayList[position].Status)
 
                             startActivity(intent)
                         }

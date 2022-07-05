@@ -10,6 +10,7 @@ class ComplainDetailedActivity : AppCompatActivity() {
     private lateinit var user_id: TextView
     private lateinit var complain: TextView
     private lateinit var address: TextView
+    private lateinit var status: TextView
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -24,6 +25,7 @@ class ComplainDetailedActivity : AppCompatActivity() {
         user_id = findViewById(R.id.user_idDetail)
         complain = findViewById(R.id.complainDetail)
         address = findViewById(R.id.addressDeatil)
+        status.text = intent.getStringExtra("status")
     }
 
     private fun setValuesToViews(){
@@ -31,5 +33,6 @@ class ComplainDetailedActivity : AppCompatActivity() {
         user_id.text = intent.getStringExtra("user_ID")
         complain.text = intent.getStringExtra("complain")
         address.text = intent.getStringExtra("address")
+        status = findViewById(R.id.tvStatus)
     }
 }
